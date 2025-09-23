@@ -27,7 +27,7 @@ carros.append(carro6)
 def Mostrar_carro(carros):
     for carro in carros: 
         print("Dados motor:")
-        print(f'{carro.getMotor_carro().getMarca()} - {carro.getMotor_carro().getPotencia()}')
+        print(f'Marca: {carro.getMotor_carro().getMarca()} - Potência: {carro.getMotor_carro().getPotencia()}')
         print("Dados roda:")
-        print(f"{carro.getRodas_carro().getTamanhoroda()} - {carro.getRodas_carro().getMarcaroda()}")
+        print(f"Tamanho: {carro.getRodas_carro().getTamanhoroda()} - Marca {carro.getRodas_carro().getMarcaroda()}")
         print("\n--------------------------------------------")
