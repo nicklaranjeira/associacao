@@ -13,7 +13,7 @@ carro2 = Carro((motor1), (roda2))
 carro3 = Carro((motor2), (roda1))
 carro4 = Carro((motor2), (roda2))
 carro5 = Carro((motor3),(roda1))
-carro6 = Carro((motor2), (roda2))
+carro6 = Carro((motor3), (roda2))
 
 carros.append(carro1)
 carros.append(carro2)
