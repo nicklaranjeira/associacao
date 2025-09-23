@@ -1,7 +1,7 @@
 from classes import *
-motor1 = Motor(200,"Toyota")
-motor2 = Motor(150,"Honda")
-motor3 = Motor(120, "Mercedes")
+motor1 = Motor(1.5,"Toyota")
+motor2 = Motor(4.4,"Honda")
+motor3 = Motor(1.8, "Mercedes")
 
 roda1 = Roda(14, "Nissan")
 roda2 = Roda(12, "GT-7")
@@ -25,9 +25,9 @@ carros.append(carro6)
 
 
 def Mostrar_carro(carros):
-    for carro in carros:
+    for carro in carros: 
         print("Dados motor:")
-        print(f'{carro.getMotor_carro().getMarca()} {carro.getMotor_carro().getPotencia()}')
-        print("Dados Roda:")
+        print(f'{carro.getMotor_carro().getMarca()} - {carro.getMotor_carro().getPotencia()}')
+        print("Dados roda:")
         print(f"{carro.getRodas_carro().getTamanhoroda()} - {carro.getRodas_carro().getMarcaroda()}")
         print("\n--------------------------------------------")
